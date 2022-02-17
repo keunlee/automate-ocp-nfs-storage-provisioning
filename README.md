@@ -17,7 +17,11 @@ The following are necessary to proceed with the setup of this demonstration:
 
 # Setup 
 
-Update the file: `bootstrap/roles/ocp4-install-nfs-storage/defaults/main.yaml`
+Update the file: 
+
+```
+bootstrap/roles/ocp4-install-nfs-storage/defaults/main.yaml
+```
 
 Specifically, change the following values to match your environment before running the Ansible Playbook. 
 
