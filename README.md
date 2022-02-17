@@ -17,6 +17,15 @@ The following are necessary to proceed with the setup of this demonstration:
 
 # Setup 
 
+Update the file: `bootstrap/roles/ocp4-install-nfs-storage/defaults/main.yaml`
+
+Specifically, change the following values to match your environment before running the Ansible Playbook. 
+
+```yaml
+nfs_server_ip: 10.0.1.27 # Your NFS Server IP
+nfs_server_share_path: /mnt/ssd/NFSROOT # Your NFS Share Path
+```
+
 To install NFS Storage support in your OCP4 cluster:
 
 ```bash
