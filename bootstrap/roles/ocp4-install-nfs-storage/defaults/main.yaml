@@ -1,0 +1,8 @@
+ocp4_nfs_namespace: nfs
+nfs_server_ip: 10.0.1.27
+nfs_server_share_path: /mnt/ssd/NFSROOT
+nfs_storage_class_name: managed-nfs-storage
+nfs_provisioner_name: nfs-storage
+empty_list:
+  - None
+  - null
