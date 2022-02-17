@@ -1,4 +1,4 @@
-# NFS Storage provisioning on OCP4 cluster via Ansible Automation
+# NFS Storage provisioning on an OCP4 Cluster via Ansible Automation
 
 The playbook w/in this repository will do the following: 
 
